@@ -4,38 +4,40 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .content {}
 
-.categories {
+
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 40px;
+    align-items: center;
+    list-style-type: none;
+    margin: 30px;
     font-size: 30px;
-
-
-}
-
-.category1 {
-    display: flex;
-    flex-direction: row;
-}
-
-
-.category1>a {
-    margin-right: 100px;
-    text-decoration: none;
+    padding: 0;
+    
+  }
+  
+nav li {
     color: inherit;
     border-radius: 20px;
     padding: 10px 20px;
     background-color: rgba(255, 255, 255, 0.3);
     cursor: pointer;
-}
+    display: inline;
+    
+  }
+  
+nav a {
+    text-decoration: none;
+    color: black;
+  }
 
-img {
+.photo {
     max-width: 400px;
     float: right;
     margin-right: 20px;
@@ -43,5 +45,14 @@ img {
 
 p {
     margin-left: 1%;
-    font-size: 20px;
+    font-size: 16px;
+}
+
+.qr {
+    max-width: 150px;
+    margin-top: 20px;  
+}
+
+.experience {
+    display: block
 }

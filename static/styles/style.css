@@ -25,7 +25,7 @@ nav ul {
     align-items: center;
     list-style-type: none;
     margin: 20px;
-    font-size: 30px;
+    font-size: 25px;
     padding: 0;
     
   }
@@ -71,6 +71,10 @@ footer {
     margin-right: 30px;
 }
 
+.text-block>p {
+    font-size: 18px;
+}
+
 .image-block-1 {
     grid-column: 2;
     margin-right: 30px;
@@ -87,14 +91,17 @@ footer {
     margin-bottom: 20px;
 }
 
-p {
+main {
     margin-left: 15px;
+}
+
+p {
     font-size: 16px;
+    
 }
 
 .qr {
-    max-width: 150px;
-    margin-top: 20px;  
+    max-width: 250px;  
 }
 
 hr {
@@ -106,4 +113,28 @@ hr {
 
 h2 {
     text-align: center;
+}
+
+.personal-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 250px;
+}
+
+.img>p {
+    text-align: center;
+    font-size: large;
+}
+
+.markers-1 {
+	list-style-type: "📌";
+}
+
+.markers-2 {
+    list-style-type: "✔️";
+}
+
+video {
+    float: right;
 }

@@ -64,6 +64,7 @@ footer {
 .content-achieve {
     display: grid;
     grid-template-columns: 50% 25% 25%;
+    align-items: center;
 }
 
 .text-block {
@@ -73,6 +74,7 @@ footer {
 
 .text-block>p {
     font-size: 18px;
+    
 }
 
 .image-block-1 {
@@ -86,7 +88,7 @@ footer {
 }
 
 .photo-cont {
-    max-width: 100%;
+    max-width: 60%;
     float: right;
     margin-bottom: 20px;
 }
@@ -136,5 +138,26 @@ h2 {
 }
 
 video {
-    float: right;
+    margin-right: 250px;
+}
+
+.experience {
+    display: flex;
+    flex-direction:column;
+}
+
+.stage {
+    display: flex;
+}
+
+.date {
+    width: 15%;
+}
+
+.pre-experience {
+    display: flex;
+}
+
+.text {
+    width: 50%;
 }
